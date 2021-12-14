@@ -1,0 +1,86 @@
+body {
+    padding-top: 70px;
+}
+
+footer {
+    text-align: center;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.table {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #1D3557;
+}
+
+.nav-link {
+    color: #A8DADC;
+}
+
+.navbar-brand {
+    color: #F1FAEE;
+}
+
+/* .nav-item :hover {
+    background-color: #457B9D;
+    color: #F1FAEE;
+} */
+
+.navbar-toggler-icon {
+    color: #F1FAEE;
+}
+
+.leftcolumn {
+    margin-left: 50px;
+    margin-right: 20px;
+    height: auto;
+    width: 65%;
+    background-color: white;
+}
+
+.rightcolumn {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 15px;
+    height: 100%;
+    width: 20%;
+    background-color: #A8DADC;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: #F1FAEE;
+    float: none;
+}
+
+.btn-analyze {
+    background-color: #457b9d;
+    color: white;
+}
+
+#SMlogo {
+    width: 36px;
+    height: 36px;
+}
+
+#userIcon {
+    width: 36px;
+    height: 36px;
+}
+
+#errorText {
+    color: #e63946;
+}

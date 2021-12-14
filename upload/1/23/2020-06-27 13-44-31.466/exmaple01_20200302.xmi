@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
+  <uml:Model name="Component Diagram_uml" xmi:id="_PJwq0VzyEeqTL5RaAfV9FA">
+    <packagedElement clientDependency="_PJx5AlzyEeqTL5RaAfV9FA" name="Timer" xmi:id="_PJxR4FzyEeqTL5RaAfV9FA" xmi:type="uml:Class"/>
+    <packagedElement clientDependency="_PJx5AFzyEeqTL5RaAfV9FA _PJx5AVzyEeqTL5RaAfV9FA _PJx5A1zyEeqTL5RaAfV9FA _PJx5BFzyEeqTL5RaAfV9FA _PJx5CVzyEeqTL5RaAfV9FA" name="Rice Cooker Software" xmi:id="_PJxR4VzyEeqTL5RaAfV9FA" xmi:type="uml:Class"/>
+    <packagedElement clientDependency="_PJx5B1zyEeqTL5RaAfV9FA" name="Heater" xmi:id="_PJxR4lzyEeqTL5RaAfV9FA" xmi:type="uml:Class"/>
+    <packagedElement clientDependency="_PJx5CFzyEeqTL5RaAfV9FA" name="CookingLamp" xmi:id="_PJxR41zyEeqTL5RaAfV9FA" xmi:type="uml:Class"/>
+    <packagedElement clientDependency="_PJx5BlzyEeqTL5RaAfV9FA" name="Persistent Storage" xmi:id="_PJxR5FzyEeqTL5RaAfV9FA" xmi:type="uml:Class"/>
+    <packagedElement clientDependency="_PJx5BVzyEeqTL5RaAfV9FA" name="Actual Temperature Sensor" xmi:id="_PJxR5VzyEeqTL5RaAfV9FA" xmi:type="uml:Class"/>
+    <packagedElement clientDependency="_PJx4_lzyEeqTL5RaAfV9FA" name="TimedEvents" xmi:id="_PJxR5lzyEeqTL5RaAfV9FA" xmi:type="uml:Interface">
+      <ownedOperation interface="_PJxR5lzyEeqTL5RaAfV9FA" isAbstract="true" name="Tick" visibility="public" xmi:id="_PJxR51zyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJxR6FzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+        <ownedParameter name="elapsed" type="_PJx5DFzyEeqTL5RaAfV9FA" xmi:id="_PJxR6VzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation interface="_PJxR5lzyEeqTL5RaAfV9FA" isAbstract="true" name="Signal5" visibility="public" xmi:id="_PJxR6lzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJxR61zyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation interface="_PJxR5lzyEeqTL5RaAfV9FA" isAbstract="true" name="Signal30" visibility="public" xmi:id="_PJxR7FzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJxR7VzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement clientDependency="_PJx4_FzyEeqTL5RaAfV9FA" name="HeaterInterface" xmi:id="_PJxR7lzyEeqTL5RaAfV9FA" xmi:type="uml:Interface">
+      <ownedOperation interface="_PJxR7lzyEeqTL5RaAfV9FA" isAbstract="true" name="HeaterTurn-On" visibility="public" xmi:id="_PJxR71zyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJxR8FzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation interface="_PJxR7lzyEeqTL5RaAfV9FA" isAbstract="true" name="HeaterTurn-Off" visibility="public" xmi:id="_PJxR8VzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJxR8lzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement clientDependency="_PJx4_VzyEeqTL5RaAfV9FA" name="LampCommand" xmi:id="_PJxR81zyEeqTL5RaAfV9FA" xmi:type="uml:Interface">
+      <ownedOperation interface="_PJxR81zyEeqTL5RaAfV9FA" isAbstract="true" name="On" visibility="public" xmi:id="_PJxR9FzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJxR9VzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement clientDependency="_PJx4_1zyEeqTL5RaAfV9FA" name="StorageAccess" xmi:id="_PJxR9lzyEeqTL5RaAfV9FA" xmi:type="uml:Interface">
+      <ownedOperation interface="_PJxR9lzyEeqTL5RaAfV9FA" isAbstract="true" name="GetTargetTemp" visibility="public" xmi:id="_PJx48FzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJx48VzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation interface="_PJxR9lzyEeqTL5RaAfV9FA" isAbstract="true" name="GetMode" visibility="public" xmi:id="_PJx48lzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJx481zyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation interface="_PJxR9lzyEeqTL5RaAfV9FA" isAbstract="true" name="GetCookingTemp" visibility="public" xmi:id="_PJx49FzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJx49VzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation interface="_PJxR9lzyEeqTL5RaAfV9FA" isAbstract="true" name="SetTargetTemp" visibility="public" xmi:id="_PJx49lzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJx491zyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement clientDependency="_PJx4-1zyEeqTL5RaAfV9FA" name="TempSensorCommands" xmi:id="_PJx4-FzyEeqTL5RaAfV9FA" xmi:type="uml:Interface">
+      <ownedOperation interface="_PJx4-FzyEeqTL5RaAfV9FA" isAbstract="true" name="readTemp" visibility="public" xmi:id="_PJx4-VzyEeqTL5RaAfV9FA" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_PJx5C1zyEeqTL5RaAfV9FA" xmi:id="_PJx4-lzyEeqTL5RaAfV9FA" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement client="_PJx4-FzyEeqTL5RaAfV9FA" supplier="_PJx4-FzyEeqTL5RaAfV9FA" xmi:id="_PJx4-1zyEeqTL5RaAfV9FA" xmi:type="uml:Dependency"/>
+    <packagedElement client="_PJxR7lzyEeqTL5RaAfV9FA" supplier="_PJxR7lzyEeqTL5RaAfV9FA" xmi:id="_PJx4_FzyEeqTL5RaAfV9FA" xmi:type="uml:Dependency"/>
+    <packagedElement client="_PJxR81zyEeqTL5RaAfV9FA" supplier="_PJxR81zyEeqTL5RaAfV9FA" xmi:id="_PJx4_VzyEeqTL5RaAfV9FA" xmi:type="uml:Dependency"/>
+    <packagedElement client="_PJxR5lzyEeqTL5RaAfV9FA" supplier="_PJxR5lzyEeqTL5RaAfV9FA" xmi:id="_PJx4_lzyEeqTL5RaAfV9FA" xmi:type="uml:Dependency"/>
+    <packagedElement client="_PJxR9lzyEeqTL5RaAfV9FA" supplier="_PJxR9lzyEeqTL5RaAfV9FA" xmi:id="_PJx4_1zyEeqTL5RaAfV9FA" xmi:type="uml:Dependency"/>
+    <packagedElement client="_PJxR4VzyEeqTL5RaAfV9FA" supplier="_PJxR81zyEeqTL5RaAfV9FA" xmi:id="_PJx5AFzyEeqTL5RaAfV9FA" xmi:type="uml:Usage"/>
+    <packagedElement client="_PJxR4VzyEeqTL5RaAfV9FA" supplier="_PJxR7lzyEeqTL5RaAfV9FA" xmi:id="_PJx5AVzyEeqTL5RaAfV9FA" xmi:type="uml:Usage"/>
+    <packagedElement client="_PJxR4FzyEeqTL5RaAfV9FA" supplier="_PJxR5lzyEeqTL5RaAfV9FA" xmi:id="_PJx5AlzyEeqTL5RaAfV9FA" xmi:type="uml:Usage"/>
+    <packagedElement client="_PJxR4VzyEeqTL5RaAfV9FA" supplier="_PJx4-FzyEeqTL5RaAfV9FA" xmi:id="_PJx5A1zyEeqTL5RaAfV9FA" xmi:type="uml:Usage"/>
+    <packagedElement client="_PJxR4VzyEeqTL5RaAfV9FA" supplier="_PJxR9lzyEeqTL5RaAfV9FA" xmi:id="_PJx5BFzyEeqTL5RaAfV9FA" xmi:type="uml:Usage"/>
+    <packagedElement client="_PJxR5VzyEeqTL5RaAfV9FA" supplier="_PJx4-FzyEeqTL5RaAfV9FA" xmi:id="_PJx5BVzyEeqTL5RaAfV9FA" xmi:type="uml:Realization"/>
+    <packagedElement client="_PJxR5FzyEeqTL5RaAfV9FA" supplier="_PJxR9lzyEeqTL5RaAfV9FA" xmi:id="_PJx5BlzyEeqTL5RaAfV9FA" xmi:type="uml:Realization"/>
+    <packagedElement client="_PJxR4lzyEeqTL5RaAfV9FA" supplier="_PJxR7lzyEeqTL5RaAfV9FA" xmi:id="_PJx5B1zyEeqTL5RaAfV9FA" xmi:type="uml:Realization"/>
+    <packagedElement client="_PJxR41zyEeqTL5RaAfV9FA" supplier="_PJxR81zyEeqTL5RaAfV9FA" xmi:id="_PJx5CFzyEeqTL5RaAfV9FA" xmi:type="uml:Realization"/>
+    <packagedElement client="_PJxR4VzyEeqTL5RaAfV9FA" supplier="_PJxR5lzyEeqTL5RaAfV9FA" xmi:id="_PJx5CVzyEeqTL5RaAfV9FA" xmi:type="uml:Realization"/>
+    <packagedElement name="PrimitiveTypes" xmi:id="_PJx5ClzyEeqTL5RaAfV9FA" xmi:type="uml:Package">
+      <packagedElement name="void" xmi:id="_PJx5C1zyEeqTL5RaAfV9FA" xmi:type="uml:PrimitiveType"/>
+      <packagedElement name="int" xmi:id="_PJx5DFzyEeqTL5RaAfV9FA" xmi:type="uml:PrimitiveType"/>
+    </packagedElement>
+  </uml:Model>
+</xmi:XMI>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/kendo.common-material.min.css">
+    <link rel="stylesheet" href="./css/kendo.material.min.css">
+    <link rel="stylesheet" href="./css/uikit.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>軟體分析</title>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li style="float: left;"><a class="navbar-title" href="index.php">軟體分析</a></li>
+            <li style="float: right;"><a class="navbar-logout" href="logout.php">登出</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="uk-container align-center">
+            <div style="text-align: left; margin-bottom: 20px; ">
+                <h3>新增專案</h3>
+                <div>
+                    <input id="project_name" type="text" class="k-textbox"
+                        style="width: 30%; margin-bottom: 15px;" placeholder="專案名稱..." autocomplete="off"><br>
+                    <button id="add_project" class="k-button k-primary">新增</button>
+                    <span id="project_error" style="margin-left: 15px"></span>
+                </div>
+            </div>
+            <div id="project_grid">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+<script src="./js/jquery-2.1.4.min.js"></script>
+<script src="./js/kendo.all.min.js"></script>
+<script src="./js/uikit.min.js"></script>
+
+<script src="./js/index/dataOperation.js"></script>
+<script src="./js/index/init.js"></script>
+
+
+</html>

@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    font-family: 'Noto Sans TC' !important;
+    font-weight: 300 !important;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 60px;
+    background: #3b5998;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+.navbar-title {
+    margin-left: 70px;
+    font-size: 22px !important;
+    font-family: 'Noto Sans TC' !important;
+    line-height: 60px !important;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-logout {
+    margin-right: 70px;
+    font-family: 'Noto Sans TC' !important;
+    line-height: 60px !important;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.fieldlist {
+    margin: 0 0 3px;
+    padding: 0;
+}
+
+.fieldlist li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.fieldlist label {
+    display: block;
+    padding-bottom: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    color: #444;
+}
+
+.grid-toolbar {
+    height: 50px;
+    line-height: 50px;
+}
+
+.grid-toolbar input {
+    color: white;
+    background: #3343a4;
+    border: none;
+    padding: 10px 20px;
+    width: 367px;
+}
+
+.grid-toolbar input::placeholder {
+    color: #9d9d9d;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
